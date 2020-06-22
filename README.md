@@ -10,7 +10,7 @@ github.com
 
   `./fwpurge.tcl <ip address>`
 
-#### Extra Information:
+### Extra Information:
 *The connections table is stored in the following format:*
 
 <direction,5-tuple-key;r_ctype,r_cflags,rule,service_id,handler,uuid1,uuid2,uuid3,uuid4,ifncin,ifncout,ifnsin,ifnsout,bits1,bits2,connection_module_kbufs@ttl/timeout>
