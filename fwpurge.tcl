@@ -50,6 +50,8 @@ set srchex "$inhex1$inhex2$inhex3$inhex4"
 proc gettable {} {
 global src srchex
 
+set x 0
+
 if [catch {set rtable [exec fw tab -t connections -u]} err] {
 puts $err
 } else {
@@ -99,7 +101,7 @@ exec fw tab -t connections -x -e $keys
        }
                       }
        }
-
+puts "Total purged connections for $src: $x" 
                   }
 #-----------------------------------------
 
