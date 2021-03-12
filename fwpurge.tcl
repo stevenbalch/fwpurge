@@ -95,6 +95,7 @@ after 250
 puts "Found a matching record of $k2, purging active connection tuple: $keys"
 puts ""
 exec fw tab -t connections -x -e $keys
+incr x 1
 
 } else {
 #puts "Did not find a match for IP Address: $src"
