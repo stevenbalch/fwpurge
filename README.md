@@ -1,5 +1,5 @@
 # fwpurge
-Check Point utility to clear individual connections out of kernal state table. This utility makes it easier to remove connections out of the state table leveraging an IP address instead of a tuple.
+Check Point utility to clear individual connections out of kernel state table. This utility makes it easier to remove connections out of the state table leveraging an IP address instead of a tuple.
 
 ## Supported Sites:
 github.com
